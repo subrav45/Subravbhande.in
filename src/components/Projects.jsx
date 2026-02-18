@@ -11,8 +11,8 @@ import {
   SiScikitlearn,
 } from "react-icons/si";
 
-import resumeApp from "../assest/image.png";
-import kolgiri from "../assest/kolgiri.png";
+import kolgiri from "../assest/image.png";
+import resumeApp from "./image.png";
 
 const projects = [
   {

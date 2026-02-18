@@ -1,5 +1,6 @@
 import React from "react";
-
+import ParticlesBG from "./particleBG";
+import profilepic from "./new profile photo jpg.jpg";
 export default function About() {
   return (
     <section id="about" className="bg-white py-24">
@@ -22,7 +23,7 @@ export default function About() {
         </div>
 
         <img
-          src="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-174669.jpg"
+          src={profilepic}
           alt="About"
           className="w-80 h-80 rounded-2xl object-cover shadow-lg hover:scale-105 transition"
         />

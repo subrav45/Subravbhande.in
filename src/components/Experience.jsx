@@ -51,9 +51,9 @@ export default function Experience() {
                 />
 
                 {/* Card */}
-                <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition w-full">
+                <div className="bg-white p-6 rounded-xl border border-red-200 shadow-sm hover:shadow-md transition w-full">
                   <div className="flex flex-wrap justify-between items-center mb-2">
-                    <h3 className="font-semibold text-gray-900">
+                    <h3 className="font-semibold text-blue-500">
                       {exp.role}
                     </h3>
                     <span className="text-sm text-gray-500">
